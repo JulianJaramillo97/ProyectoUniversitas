@@ -1,0 +1,87 @@
+* {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Comic Neue', cursive;
+  }
+
+  header{
+    text-align: center;
+    border: solid 2px black;
+    border-bottom: none;
+  }
+
+  header img{
+    padding: 20px 0px 20px 0px;
+  }
+
+  header nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+  }
+
+  header ul{
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    background-color: rgb(126, 78, 126);
+    padding: 10px 8% 10px 8%;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+  
+  header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  header nav ul:first-child{
+    background-color: orange;
+  }
+
+  .vista1{
+    display: flex;
+    justify-content: center;    
+    background-color: gray;
+  }
+
+  .vista1 article{
+    border: solid 2px black;
+    margin: 0px 1px 0px 0px;
+    background-color: white;
+
+  }
+
+  .vista1 article:first-child{
+    padding: 90px 6% 90px 6%;
+  }
+
+  .vista1 article:last-child{
+    padding: 20px 5% 20px 5%;
+  }
+
+  .vista1 article:last-child h2{
+    margin-bottom: 5px;
+  }
+
+  .vista1 article:last-child small{
+    font-weight: bold;
+  }
+
+  .vista1 article:last-child hr{
+    width: 32.5%;
+    margin-top: 3px;
+  }
+
+  .vista1 article div{
+    width: 64%;
+  }
+
+  .vista1 article:last-child p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
