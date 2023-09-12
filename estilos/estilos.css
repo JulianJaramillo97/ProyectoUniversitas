@@ -218,3 +218,52 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 /*quienesSomos*/
+
+.quienesSomos{
+  background-color: gray;
+}
+.quienesSomos div{
+  display: flex;
+}
+
+.quienesSomos div article{
+  background-color: white;
+  border: solid 2px black;
+}
+
+.quienesSomos div article:first-child{
+  width: 40%;
+  text-align: center;
+  padding: 150px 0px 150px 0px;
+  margin-right: 3px;
+}
+
+.quienesSomos div article:first-child img{
+  width: 80%;
+}
+
+.quienesSomos div article:last-child{
+  width: 60%;
+  padding: 70px 5% 20px 5%;
+}
+
+.quienesSomos div article:last-child h1{
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.quienesSomos div article:last-child small{
+  font-weight: bold;
+}
+
+.quienesSomos div article:last-child hr{
+  width: 32.5%;
+  margin-top: 3px;
+}
+
+.quienesSomos div article:last-child p{
+  width: 47%;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 30px;
+}
