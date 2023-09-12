@@ -267,3 +267,32 @@
   font-weight: bold;
   margin-top: 30px;
 }
+/*------------------------------------------------------------------------------*/
+/*nuestroEquipo*/
+.nuestroEquipo{
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  padding-bottom: 40px;
+  border: solid 2px black;
+}
+
+.nuestroEquipo h1{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px 0px 10px 0px;
+}
+
+.nuestroEquipo hr{
+  width: 20%;
+  color: white;
+  margin: 0 auto;
+}
+
+.nuestroEquipo p{
+  width: 50%;
+  font-size: 23px;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 40px;
+}
