@@ -138,6 +138,7 @@
 .vista3 div{
     display: flex;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .vista3 div article{
@@ -175,3 +176,45 @@
     color: orange;
     font-weight: bold;
 }
+/*-------------------------------------------------------------------------------------------------*/
+/*CUARTA VISTA*/
+
+.vista4{
+  background-color: cornflowerblue;
+  border: solid 2px black;
+  padding-bottom: 40px;
+}
+
+.vista4 h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px 0px 40px 0px;
+
+}
+
+.vista4 div{
+  display: flex;
+  justify-content: center;
+}
+
+.vista4 div article{
+  width: 20%;
+  text-align: center;
+  background-color:rgb(236, 240, 241);
+  border: solid 2px black;
+}
+
+.vista4 div article h2{
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(189, 195, 199);
+}
+
+.vista4 div article img{
+  width: 40%;
+  margin: 30px 0px 40px 0px;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+/*quienesSomos*/
