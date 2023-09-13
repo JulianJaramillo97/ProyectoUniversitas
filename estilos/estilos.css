@@ -296,3 +296,43 @@
   margin: auto;
   padding-top: 40px;
 }
+
+/*------------------------------------------------------------------------------*/
+/*nuestrosEmpleados*/
+.nuestrosEmpleados{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.nuestrosEmpleados table{
+  padding-bottom: 3px;
+}
+
+.nuestrosEmpleados h1{
+  font-size: 30px;
+  padding: 30px 0px 10px 0px;
+}
+
+.nuestrosEmpleados hr{
+  width: 20%;
+  color: black;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.nuestrosEmpleados table, th, td{
+  margin: 0 auto;
+  border: solid 3px black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 20px 70px 20px 70px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nuestrosEmpleados th{
+  background-color: rgb(220, 221, 225);
+}
+
+.nuestrosEmpleados td{
+  background-color: rgb(245, 246, 250);
+}
