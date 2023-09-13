@@ -90,7 +90,7 @@
   /*----------------------------------------------------------------------------------------------*/
 /*SEGUNDA VISTA*/
 
-.vista2{
+#vista2{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -100,23 +100,23 @@
     border: solid 2px black;
 }
 
-.vista2 div{
+#vista2 div{
     width: 51%;
 }
 
-.vista2 h1{
+#vista2 h1{
     color: white;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.vista2 hr{
+#vista2 hr{
     color: white;
     margin: 0 auto;
     width: 20%;
 }
 
-.vista2 p{
+#vista2 p{
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -219,49 +219,49 @@
 /*-------------------------------------------------------------------------------------------------*/
 /*quienesSomos*/
 
-.quienesSomos{
+#quienesSomos{
   background-color: gray;
 }
-.quienesSomos div{
+#quienesSomos div{
   display: flex;
 }
 
-.quienesSomos div article{
+#quienesSomos div article{
   background-color: white;
   border: solid 2px black;
 }
 
-.quienesSomos div article:first-child{
+#quienesSomos div article:first-child{
   width: 40%;
   text-align: center;
   padding: 150px 0px 150px 0px;
   margin-right: 3px;
 }
 
-.quienesSomos div article:first-child img{
+#quienesSomos div article:first-child img{
   width: 80%;
 }
 
-.quienesSomos div article:last-child{
+#quienesSomos div article:last-child{
   width: 60%;
   padding: 70px 5% 20px 5%;
 }
 
-.quienesSomos div article:last-child h1{
+#quienesSomos div article:last-child h1{
   font-size: 25px;
   padding-bottom: 5px;
 }
 
-.quienesSomos div article:last-child small{
+#quienesSomos div article:last-child small{
   font-weight: bold;
 }
 
-.quienesSomos div article:last-child hr{
+#quienesSomos div article:last-child hr{
   width: 32.5%;
   margin-top: 3px;
 }
 
-.quienesSomos div article:last-child p{
+#quienesSomos div article:last-child p{
   width: 47%;
   font-size: 23px;
   font-weight: bold;
@@ -269,7 +269,7 @@
 }
 /*------------------------------------------------------------------------------*/
 /*nuestroEquipo*/
-.nuestroEquipo{
+#nuestroEquipo{
   text-align: center;
   background-color: cornflowerblue;
   color: white;
@@ -277,19 +277,19 @@
   border: solid 2px black;
 }
 
-.nuestroEquipo h1{
+#nuestroEquipo h1{
   font-size: 30px;
   font-weight: bold;
   padding: 40px 0px 10px 0px;
 }
 
-.nuestroEquipo hr{
+#nuestroEquipo hr{
   width: 20%;
   color: white;
   margin: 0 auto;
 }
 
-.nuestroEquipo p{
+#nuestroEquipo p{
   width: 50%;
   font-size: 23px;
   font-weight: bold;
@@ -299,27 +299,28 @@
 
 /*------------------------------------------------------------------------------*/
 /*nuestrosEmpleados*/
-.nuestrosEmpleados{
+#nuestrosEmpleados{
   text-align: center;
-  padding-bottom: 40px;
+  padding: 20px 0px 80px 0px;
+  border: 2px solid black;
 }
 
-.nuestrosEmpleados table{
+#nuestrosEmpleados table{
   padding-bottom: 3px;
 }
 
-.nuestrosEmpleados h1{
+#nuestrosEmpleados h1{
   font-size: 30px;
   padding: 30px 0px 10px 0px;
 }
 
-.nuestrosEmpleados hr{
+#nuestrosEmpleados hr{
   width: 20%;
   color: black;
   margin: 0 auto;
   margin-bottom: 80px;
 }
-.nuestrosEmpleados table, th, td{
+#nuestrosEmpleados table, th, td{
   margin: 0 auto;
   border: solid 3px black;
   border-collapse: collapse;
@@ -329,10 +330,88 @@
   font-weight: bold;
 }
 
-.nuestrosEmpleados th{
+#nuestrosEmpleados th{
   background-color: rgb(220, 221, 225);
 }
 
-.nuestrosEmpleados td{
+#nuestrosEmpleados td{
   background-color: rgb(245, 246, 250);
+}
+/*-----------------------------------------------------------------------------------------*/
+/*COTIZADOR*/
+
+#cotizador{
+  padding: 120px 0px 120px 0px;
+  text-align: center;
+  border: solid 2px black;
+}
+
+#cotizador p{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 40px 0px 40px 0px;
+}
+
+#cotizador form{
+  display: flex;
+  justify-content: center;
+}
+
+#cotizador form li{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#cotizador form li label{
+  margin-right: 30px;
+}
+
+#cotizador form li input{
+  outline: none;
+  border: solid 2px black;
+  width: 191px;
+}
+
+#cotizador form .Descripcion{
+  display: inline-grid;
+}
+
+#cotizador form .Descripcion textarea{
+  margin-top: 18px;
+  width: 341px;
+  resize: none;
+  outline: none;
+  border: solid 2px black;
+}
+#cotizador form .enviar{
+  justify-content: center;
+  margin-top: -3px;
+}
+
+#cotizador form .enviar button{
+  padding: 10px 5% 10px 5%;
+  background-color: white;
+  border: solid 2px black;
+  font-size: 16px;
+  font-weight: bold;
+}
+/*-------------------------------------------------------------------------------------------*/
+/*FOOTER*/
+
+footer{
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  border: solid 1px black;
+  background-color: cornflowerblue;
+}
+
+footer h1{
+  color: white;
+}
+
+footer h1 a{
+  color: white;
 }
